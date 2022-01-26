@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    
+}
+
+#heading {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#optionsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+button {
+    font-family: 'Roboto Mono', monospace;
+    height: 50px;
+    width: 80px;
+    margin-bottom: 80px;
+}
+
+#responsesContainer {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+#results, #playAgain {
+    text-align: center;
+}

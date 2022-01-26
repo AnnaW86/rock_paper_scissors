@@ -6,11 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+        </style>
 </head>
 
 <body>
 
-<div id="container">
+<h1 id="heading">See if you can beat the computer!</h1>
+
+<div id="optionsContainer">
 
     <button id="rock">Rock</button>
     <button id="paper">Paper</button>
@@ -18,8 +23,15 @@
 
 </div>
 
+<div id='responsesContainer'>
+    <p id="player"></p>
+    <p id="vs"></p>
+    <p id="computer"></p>
+</div>
+
 <div>
     <p id ="results"></p>
+    <p id='playAgain'></p>    
 </div>
 
 <script src="script.js"></script>
